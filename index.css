@@ -97,6 +97,7 @@ body{
 
 #portfolio {
     padding: 50px 0;
+   background-color: rgb(231, 224, 218);
 }
 
 .work-list {
@@ -314,10 +315,14 @@ form .btn2 {
     }
 
     .circle img {
-        width: 70%;
+        width: 75%;
         height: 300px;
     }
-
+   .service{
+        height: 400px;
+        width: 90%;
+        margin-left: 35px;
+    }
     .services-list {
         grid-template-columns: 1fr;
         grid-gap: 20px;
@@ -331,22 +336,10 @@ form .btn2 {
         font-size: 24px;
         margin-right: 10px;
     }
-
-    .btn.btn2 {
-        width: 100%;
-        text-align: center;
-        padding: 12px;
-        font-size: 18px;
-    }
-
     form input,
     form textarea {
         font-size: 16px;
         padding: 10px;
-    }
-
-    form .btn2 {
-        width: 100%;
     }
 
     .con {

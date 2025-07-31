@@ -315,8 +315,8 @@ form .btn2 {
     }
 
     .circle img {
-        width: 90%;
-        height: 350px;
+        width: 85%;
+        height: 300px;
     }
     .services-list {
         grid-template-columns: 1fr;

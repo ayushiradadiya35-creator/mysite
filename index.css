@@ -294,15 +294,84 @@ form .btn2 {
     color: #ff004f;
 }
 
-@media only screen and (max-width: 600px) {
-    .bg-1 img{
-         margin-left: 30px;
+@media only screen and (max-width: 768px) {
+
+    .header-text {
+        margin-top: 50px;
+        text-align: center;
     }
-    .bg-1 h1{
-    margin-left: 70px;
-}
-   .portfolio img{
-      height: 400px;
-      width: 400px;
-   }
+
+    .header-text h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .bg-1 img {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .circle img {
+        width: 100%;
+        height: auto;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .work-list {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .social-icons a {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .btn.btn2 {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    form .btn2 {
+        width: 100%;
+    }
+
+    .con {
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 26px;
+    }
+
+    .navbar-toggle {
+        margin-top: 10px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 18px;
+        padding: 10px 0;
+    }
 }

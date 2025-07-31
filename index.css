@@ -316,12 +316,7 @@ form .btn2 {
 
     .circle img {
         width: 95%;
-        height: 450px;
-    }
-   .service{
         height: 500px;
-        width: 90%;
-        margin-left:-10px;
     }
     .services-list {
         grid-template-columns: 1fr;

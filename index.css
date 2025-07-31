@@ -321,7 +321,7 @@ form .btn2 {
    .service{
         height: 500px;
         width: 90%;
-      
+        margin-left:-30px;
     }
     .services-list {
         grid-template-columns: 1fr;

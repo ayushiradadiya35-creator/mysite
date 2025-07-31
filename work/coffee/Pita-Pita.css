@@ -1,0 +1,281 @@
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+/* Header */
+.header {
+    background-image: url('img/coffee.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    padding: 0 10%;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbar h1 {
+    color: chocolate;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.navbar a {
+    color: chocolate;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.content {
+    padding-top: 180px;
+    max-width: 40%;
+}
+.button{
+     height: 30px;
+    width: 100px;
+    background-color: rgb(136, 68, 44);
+    color: black;
+     border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(133, 94, 21);
+}
+/* Brand Logos */
+.section_brand {
+    margin: 50px 10%;
+}
+
+.logo1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon img {
+    width: 100px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.icon:hover img {
+    opacity: 1;
+}
+
+/* Specials Section */
+.new {
+    background-color: floralwhite;
+    padding: 40px 10%;
+}
+
+.heading h4 {
+    text-align: center;
+    color: coral;
+    padding: 30px 0;
+}
+
+.shop-container,
+.pip {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box,
+.show {
+    text-align: center;
+}
+
+/* Promo Section */
+.check {
+    margin: 60px 10%;
+    background-image: url(img/bg.jpeg);
+    height: 400px;
+     background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+}
+.check > h1 {
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.btn {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(136, 68, 44);
+    color: black;
+    margin-left: 710px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(173, 86, 86);
+    color: white;
+}
+
+/* Customer Section */
+.customer {
+    background-color: floralwhite;
+    padding: 60px 10%;
+}
+
+.customer > h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.review {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+.customer1,
+.customer2,
+.customer3 {
+    background: white;
+    border: 5px groove white;
+    padding: 20px;
+}
+
+.cir {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.customer1 h3,
+.customer2 h3,
+.customer3 h3 {
+    margin-left: 60px;
+    margin-top: -35px;
+}
+
+
+.background {
+     margin: 60px 10%;
+    background-image: url(img/bg1.jpeg);
+    height: 400px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.background>h2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+.background>p{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 65px;
+}
+.button1{
+    background-color: rgb(180, 90, 25);
+    height: 40px;
+    width:130px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px 20px;
+    margin-left: 385px;
+    margin-top: -42px;
+}
+.button1:hover{
+    color: white;
+    background-color: black;
+}
+.footer{
+    background-color: rgb(80, 39, 12);
+    height: 300px;
+    width: 100%;
+}
+.ftr0 {
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.ftr1{
+    position: absolute;
+    color: white;
+    margin-top: 70px;
+    margin-left: 280px;
+}
+.ftr2{
+    position: absolute;
+    color: white;
+    margin-top: 70px;
+    margin-left: 480px;
+}
+.ftr3{
+    position: absolute;
+    color: white;
+    margin-top: 70px;
+    margin-left: 680px;
+}
+.ftr4{
+    position: absolute;
+    color: rgb(228, 226, 226);
+    margin-top: 70px;
+    margin-left: 880px;
+}
+.ftr5{
+    position: absolute;
+    color: rgb(228, 226, 226);
+    margin-top: 70px;
+    margin-left: 1120px;
+}
+.icon1{
+    cursor: pointer;
+}
+.fa-facebook{
+    margin-left: 10px;
+}
+.fa-twitter{
+    margin-left: 25px;
+}
+.fa-instagram{
+     margin-left: 25px;
+ }
+ .fa-linkedin{
+    margin-left: 25px;
+ }

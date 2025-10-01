@@ -77,7 +77,7 @@ body {
   letter-spacing: 2px;
     line-height: 2.433535;
 }
-.thumbnail {
+ .thumbnail {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
@@ -98,8 +98,7 @@ body {
     background-color: #fff;
     color: #000;
   }
-  
-.modal{
+ .modal{
   color: #000;
 }
 #contact h3{

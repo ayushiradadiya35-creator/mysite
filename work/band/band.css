@@ -119,6 +119,16 @@ footer{
     margin-bottom: 15px;
       margin-left:-80px;
   }
+    @media (max-width: 768px) {
+  .thumbnail {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .thumbnail img {
+    max-width: 100%;
+    height: auto;
+  }
+}
   
     
 }

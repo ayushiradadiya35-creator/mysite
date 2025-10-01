@@ -21,6 +21,10 @@ body {
   .person:hover {
     border-color: #f1f1f1;
   }
+.list-group{
+background-color: #2d2d30;
+     color: #bdbdbd;
+}
   .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */ 

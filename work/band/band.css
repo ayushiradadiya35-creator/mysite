@@ -120,7 +120,7 @@ footer{
   padding: 5px 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
  .col-xs-12 {
     text-align: center;
   }

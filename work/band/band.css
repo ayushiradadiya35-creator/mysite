@@ -120,7 +120,17 @@ footer{
     margin-bottom: 15px;
       margin-left:-80px;
   }
-    #tour>h3{
-        width:100%;
+    .col-xs-4 {
+    text-align: center;
+  }
+  .col-xs-4 img {
+    display: inline-block;
+    margin: 0 auto 15px auto; /* center aligned */
+    max-width: 100%; /* responsive */
+    height: auto;
+  }
+  #tour h3 {
+    width: 100%;
+  }
     
 }

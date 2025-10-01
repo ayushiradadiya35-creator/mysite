@@ -129,8 +129,5 @@ footer{
     margin-bottom: 15px;
       margin-left:-80px;
   }
-     #tour .thumbnail {
-    width: 100%;          /* takes full width */
-    margin-bottom: 20px;  /* spacing between stacked cards */
-  }
+    
 }

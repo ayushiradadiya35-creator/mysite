@@ -2,6 +2,9 @@ body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
    color: #777;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
   .navbar {
     font-family: Montserrat, sans-serif;

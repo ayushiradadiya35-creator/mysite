@@ -21,7 +21,7 @@ body {
   .person:hover {
     border-color: #f1f1f1;
   }
-.list-group{
+.list-group-item{
 background-color: #2d2d30;
      color: #bdbdbd;
 }

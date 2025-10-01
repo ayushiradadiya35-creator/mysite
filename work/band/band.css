@@ -122,5 +122,6 @@ footer{
 }
 #demo,#demo2,#demo3>img{
    text-align: center;
+    margin-left:-50px;
 }
 }

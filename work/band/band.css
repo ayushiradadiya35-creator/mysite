@@ -34,8 +34,7 @@ body {
   }
   .dropdown-menu li a:hover {
     background-color: red !important;
-  } 
-  .carousel-inner img{
+  } .carousel-inner img{
     height: 200px;
     width: 100%;
     background-size: cover;

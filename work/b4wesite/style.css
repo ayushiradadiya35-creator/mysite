@@ -155,3 +155,10 @@
  color: #888;
  font-size: 16px;
 }
+@media (max-width: 768px) {
+    .team .item{
+        margin-top: 30px;
+    }
+.team .item:hover .des{
+    width: 94%;
+}

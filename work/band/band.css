@@ -121,10 +121,11 @@ footer{
 }
 
 @media (max-width: 768px) {
-  #demo,#demo2,#demo3{
-  text-align: center;
-}
-#demo,#demo2,#demo3>img{
-   text-align: center;
-}
+ .col-xs-12 {
+    text-align: center;
+  }
+  .col-xs-12 img {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
 }

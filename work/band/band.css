@@ -3,35 +3,38 @@ body {
     line-height: 1.8;
    color: #777;
   }
-  .navbar{
-	background-color: #615f5e;
-	line-height: 1.42;
-	letter-spacing: 4px;
-	border: 0;
-	z-index: 9999;
-	color: hsl(0, 0%, 100%);
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
   }
-   .navbar-brand {
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
     color: #fff !important;
   }
-   .navbar-nav li a {
+  .navbar-nav li.active a {
     color: #fff !important;
+    background-color: #29292c !important;
   }
-   .navbar-nav li a:hover {
-    color: black !important;
-    background-color: #fff !important;
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
   }
-  .drop-downmenu{
-    color: hsl(0, 0%, 100%);
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
   }
   .dropdown-menu li a {
-    color: #303030 !important;
-    background-color: hsl(0, 0%, 100%) !important;
+    color: #000 !important;
   }
-  .dropdown-menu li a:hover{
+  .dropdown-menu li a:hover {
     background-color: red !important;
-    color: aliceblue !important;
-  }
+  } 
   .carousel-inner img{
     height: 200px;
     width: 100%;

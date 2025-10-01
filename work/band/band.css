@@ -77,10 +77,15 @@ body {
   letter-spacing: 2px;
     line-height: 2.433535;
 }
- .thumbnail {
+.thumbnail{
+    height: 400px;
+    color: grey;
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+  }
+  .thumbnail img {
+    margin-bottom: 10px;
   }
   .thumbnail p {
     margin-top: 15px;

@@ -129,13 +129,8 @@ footer{
     margin-bottom: 15px;
       margin-left:-80px;
   }
-      #tour .thumbnail {
-    display: block;
-    margin: 0 auto 20px auto;
-    max-width: 90%; 
-  }
-  #tour img {
-    width: 100%; 
-    height: auto;
+     #tour .thumbnail {
+    width: 100%;          /* takes full width */
+    margin-bottom: 20px;  /* spacing between stacked cards */
   }
 }

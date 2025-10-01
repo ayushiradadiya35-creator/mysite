@@ -2,184 +2,208 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PITA_PITA</title>
-    <link rel="stylesheet" href="Pita-Pita.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PITA_PITA</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="Pita-Pita.css">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <div class="header">
-        <div class="navbar">
-            <h1>COFFEE</h1>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">COFFEE</a></li>
-                <li><a href="#">BAKERY</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">LOGIN</a></li>
-            </ul>
-        </div>
-        <div class="content">
-            <h2>Welcome</h2>
-            <h1>We serve the richest coffee in the city!</h1>
-            <div class="button">Order Now!</div>
-        </div>
+
+  
+  <nav class="navbar navbar-expand-lg" style="color: chocolate;">
+    <div class="container">
+      <a class="navbar-brand text-chocolate fw-bold" style="color:chocolate;" href="#">COFFEE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon" style="color: chocolate;"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">COFFEE</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">BAKERY</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <div>
+  <header class="header">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5">
+    <h2>Welcome</h2>
+    <h1>We serve the richest coffee in the city!</h1>
 
-    <!-- Brand Logos -->
-    <section class="section_brand">
-        <div class="logo1">
-            <div class="icon"><img src="img/c2.png" alt=""></div>
-            <div class="icon"><img src="img/c5.png" alt=""></div>
-            <div class="icon"><img src="img/c6.png" alt=""></div>
-        </div>
-    </section>
+    <a href="#" class="btn order-btn">Order Now!</a>
+  </div>
+  </div>
+</div>
 
-    <!-- Specials Section -->
-    <section class="new" id="new">
-        <div class="heading">
-            <h4>OUR SPECIAL COFFEE</h4>
-        </div>
+ 
+  </header>
 
-        <div class="shop-container">
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/n.png" height="210px" width="140px">
-                    <h4>Lungo Coffee</h4>
-                    <h3>Rs. 350</h3>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/c9.png" height="210px">
-                    <h4>Dalgona Coffee</h4>
-                    <h3>Rs. 500</h3>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/n2.png" height="210px">
-                    <h4>Filter Coffee</h4>
-                    <h3>Rs. 400</h3>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bakery Section -->
-        <div class="pip">
-            <div class="show">
-                <div class="web">
-                    <img src="img/c11.png" height="210px" width="140px">
-                    <h4>Chocolate Cupcake</h4>
-                    <h3>Rs. 200</h3>
-                </div>
-            </div>
-
-            <div class="show">
-                <div class="web">
-                    <img src="img/N3.png" height="210px" width="140px">
-                    <h4>Blueberry Cupcake</h4>
-                    <h3>Rs. 550</h3>
-                </div>
-            </div>
-
-            <div class="show">
-                <div class="web">
-                    <img src="img/n4.png" height="210px" width="140px">
-                    <h4>Vanilla Cupcake</h4>
-                    <h3>Rs. 350</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product Promo -->
-    <div class="check">
-        <h1>Check out our best<br> coffee beans.</h1>
-        <div class="btn">Explore our products →</div>
+  
+  <section class="section_brand py-5 text-center" style=" background-color: burlywood;">
+    <div class="container d-flex justify-content-center gap-5 flex-wrap">
+      <img src="img/c2.png" alt="">
+      <img src="img/c5.png" alt="">
+      <img src="img/c6.png" alt="">
     </div>
+  </section>
 
-    <!-- Customer Section -->
-      
-    <div class="customer">
-        <h3>OUR HAPPY CUSTOMERS</h3>
-        <div class="main-box">
-            <div class="review">
-                <div class="customer1">
-                    <div class="cir"></div>
-                    <h3>Delisa Thompson</h3>
-                    <p>This is the best coffee<br> shop that offers coffee like no<br> other shops available near my<br> locality .Give it a try!</p>
-                </div>
-             </div>
-            <div class="review">
-                <div class="customer2">
-                     <div class="cir"></div>
-                <h3>Oluwatosin Moji</h3>
-                    <p>One of the nice cafes to hang<br> out with,the food tastes good,<br>the coffee is also,the price is not<br> too expensive.</p>
-                </div>
-             </div>
-             <div class="review">
-                 <div class="customer3">
-                    <div class="cir"></div>
-                    <h3>Sweta Rajput</h3>
-                    <p>Good place where people <br>spend free time and have good<br> food and various hot and <br>cold drink.Famous for coffee.</p>
-                </div>
-              </div>
-        </div>                  
+  
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h4 class="text-center mb-5" style="color: chocolate;">OUR SPECIAL COFFEE</h4>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <img src="img/n.png" class="img-fluid" alt="" style="width:100%;height: 400px;">
+          <h5 class="mt-3">Lungo Coffee</h5>
+          <p>Rs. 350</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/c9.png" class="img-fluid" alt=""  style="width:100%;height: 400px;">
+          <h5 class="mt-3">Dalgona Coffee</h5>
+          <p>Rs. 500</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/n2.png" class="img-fluid" alt=""  style="width:100%;height: 400px;">
+          <h5 class="mt-3">Filter Coffee</h5>
+          <p>Rs. 400</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="background">
-        <h2>Join in and get 15% off!</h2>
-        <p>Subscribe so our register and get 15% off discount code </p>
-        <input type="textbox" name="txt_email" placeholder="Email Address"  style="border-radius: 20px 20px; height: 35px; width: 300px; padding: 20px; margin-top: 230px;margin-left: 80px;">
-        <div class="button1">Subscribe</div>
+ 
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <img src="img/c11.png" class="img-fluid" alt=""  style="width:100%;height: 300px;">
+          <h5 class="mt-3">Chocolate Cupcake</h5>
+          <p>Rs. 200</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/N3.png" class="img-fluid" alt="" style="width:100%;height: 300px;">
+          <h5 class="mt-3">Blueberry Cupcake</h5>
+          <p>Rs. 550</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/n4.png" class="img-fluid" alt="" style="width:100%;height: 300px;">
+          <h5 class="mt-3">Vanilla Cupcake</h5>
+          <p>Rs. 350</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="footer">
-        <div class="ftr0">
-            <h1>COFFEE</h1>
+  
+  <div class="check">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4">
+    <h1>Check out our best coffee beans.</h1>
+    <a href="#" class="btn order-btn">Explore our products →</a>
+  </div>
+</div>
+</div>
+</div>
+
+
+  <section class="customer py-5 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-5" style="color:chocolate;">OUR HAPPY CUSTOMERS</h3>
+      <div class="row g-4">
+         <div class="col-md-4">
+          <div class="card p-3">
+            <h5 style="color:chocolate;font-weight: bold;">Oluwatosin Moji</h5>
+            <p style="color:chocolate;">Nice cafe to hang out with, food tastes good, coffee is nice, price is reasonable.</p>
+          </div>
         </div>
-        <div class="ftr1">
-            <h3>PRIVACY</h3>
-            <p>Teams of user</p>
-            <p>Privacy Policy</p>
-            <p>Cockiwi</p>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5  style="color:chocolate;font-weight: bold;">Oluwatosin Moji</h5>
+            <p style="color:chocolate;">Nice cafe to hang out with, food tastes good, coffee is nice, price is reasonable.</p>
+          </div>
         </div>
-         <div class="ftr2">
-            <h3>SERVICES</h3>
-            <p>shop</p>
-            <p>Order ahead</p>
-            <p>Menu</p>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5  style="color:chocolate;font-weight: bold;">Sweta Rajput</h5>
+            <p style="color:chocolate;">Good place to spend free time with great food and drinks. Famous for coffee.</p>
+          </div>
         </div>
-         <div class="ftr3">
-            <h3>ABOUT US</h3>
-            <p>Find a location</p>
-            <p>About us</p>
-            <p>Our story</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+    <h2>Join in and get 15% off!</h2>
+    <p>Subscribe and get a 15% off discount code</p>
+    <form class="d-flex justify-content-center mt-3">
+      <input type="email" class="form-control w-150 me-2 rounded-pill" placeholder="Email Address">
+      <button class="btn order-btn">Subscribe</button>
+    </form>
+  </div>
+  </div>
+</div>
+</div>
+
+  <footer class="footer" style= "background-color: burlywood;">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-2">
+          <h1>COFFEE</h1>
         </div>
-         <div class="ftr4">
-            <h3>INFORMATION</h3>
-            <p>Place & privacy</p>
-            <p>Set your products</p>
-            <p>Jotxt</p>
+        <div class="col-md-2">
+          <h3>PRIVACY</h3>
+          <p>Terms of use</p>
+          <p>Privacy Policy</p>
+          <p>Cookies</p>
         </div>
-         <div class="ftr5">
-            <h3>SOCIAL MEDIA</h3>
-            <div class="icon1">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+        <div class="col-md-2">
+          <h3>SERVICES</h3>
+          <p>Shop</p>
+          <p>Order ahead</p>
+          <p>Menu</p>
+        </div>
+        <div class="col-md-2">
+          <h3>ABOUT US</h3>
+          <p>Find a location</p>
+          <p>Our story</p>
+          <p>About us</p>
+        </div>
+        <div class="col-md-2">
+          <h3>INFORMATION</h3>
+          <p>Place & privacy</p>
+          <p>Set your products</p>
+          <p>Jobs</p>
+        </div>
+        <div class="col-md-2">
+          <h3>SOCIAL MEDIA</h3>
+          <div>
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
             <i class="fa-brands fa-linkedin"></i>
-            </div>
-         </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

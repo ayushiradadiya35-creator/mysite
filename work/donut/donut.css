@@ -21,6 +21,7 @@ body {
 .menubar ul {
     list-style: none;
     text-align: center;
+     padding:20px;
 }
 
 .menu {

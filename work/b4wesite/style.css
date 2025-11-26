@@ -162,3 +162,13 @@
 .team .item:hover .des{
     width: 94%;
 }
+
+    .portfolio img {
+        margin: 0.5em 0;  /* reduce gap on mobile */
+        height: 12rem;    /* reduce height for better view */
+    }
+
+    .portfolio h1 {
+        margin: 1em 0;
+        font-size: 24px;
+    }

@@ -217,7 +217,7 @@ body {
 .footer>h2{
     font-weight: bold;
      font-family: 'serif';
-     margin-left: 500px;
+    text-align:center;
      margin-top: 50px;
 }
 .footer>p{
@@ -227,5 +227,5 @@ body {
 }
 .mail{
     margin-top: 40px;
-    margin-left: 500px;
+    text-align:center;
 }

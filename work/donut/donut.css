@@ -209,23 +209,24 @@ body {
 
 /* Footer */
 .footer {
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    background-color: rgb(33, 193, 214);
+    text-align: center; /* This will center h2, p and input */
+    padding: 20px;
 }
-.footer>h2{
-    font-weight: bold;
-     font-family: 'serif';
-    text-align:center;
-     margin-top: 50px;
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
-.footer>p{
+.mail {
+    display: flex;
+    justify-content: center;
+}
+
+.mail input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
     text-align: center;
-    margin-left: -20px;
-    margin-top: 20px;
-}
-.mail{
-    margin-top: 40px;
-    text-align:center;
 }

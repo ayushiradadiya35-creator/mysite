@@ -34,8 +34,8 @@ body {
     text-decoration: none;
     color: black;
     font-size: 16px;
+     padding: 0 20px;
 }
-
 .menu:hover a {
     color: blue;
 }

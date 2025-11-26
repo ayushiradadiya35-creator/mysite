@@ -178,3 +178,29 @@ html,h1,h2,h3,h4,h5,h6,a{
         margin: 1em 0;
         font-size: 24px;
     }
+
+.contact-form {
+        margin: 2em 0;
+        padding: 0 1rem;
+    }
+
+    .contact-form .right {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-form h1 {
+        margin: 1em 0;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form .form-control-lg {
+        font-size: 16px;
+    }
+
+    .contact-form .btn-block {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }

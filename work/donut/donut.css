@@ -21,12 +21,12 @@ body {
 .menubar ul {
     list-style: none;
     text-align: center;
-     padding:20px;
+     padding-left:15px;
 }
 
 .menu {
     display: inline-block;
-    padding:20px;
+  
    
 }
 
